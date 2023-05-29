@@ -39,6 +39,22 @@ h1.home {
     padding: 6px 0;
 }
 
+section {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    font-size: 0.76rem;
+    text-align: center;
+    color: #ff6633;
+    padding: 2.5px 7.5px;
+    background-color: #ffffff;
+    border: solid #ff6633 1px;
+    border-radius: 100px;
+    margin: 8px 10px;
+}
+
 a img {
     display: flex;
 }
@@ -69,7 +85,7 @@ img {
 .button {
     background-color: #ff6633;
     padding: 3px 9px;
-    border-radius: 80px;
+    border-radius: 100px;
     margin: 0px 20px;
 }
 

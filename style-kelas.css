@@ -29,7 +29,7 @@ h1.kelas {
     font-size: 1.3rem;
     text-align: center;
     background-color: #ff6633;
-    padding: 4px 0 6px;
+    padding: 6px 0px;
     text-decoration: none;
 }
 
@@ -126,6 +126,11 @@ p.middle {
     max-width: 350px;
 }
 
+.stamp-container {
+    display: flex;
+    justify-content: center;
+}
+
 .cta {
     display: flex;
     justify-content: center;
@@ -154,7 +159,66 @@ a.link {
     text-align: center;
     font-size: 0.9rem;
     color: #ff6633;
+}
+
+p.link {
     margin-bottom: 4px;
+}
+
+#rek {
+    display: flex;
+    padding-bottom: 4px;
+}
+
+article.rek-container-1 {
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+article.rek-container-2 {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+a img {
+    display: flex;
+}
+
+.rek-img {
+    max-width: 46vw;
+}
+
+img.rek {
+    max-width: 100%;
+    border-radius: 1.3rem;
+}
+
+h3.kelas-rek {
+    text-align: center;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+
+p.tagline {
+    font-weight: 400;
+    font-size: 0.76rem;
+    text-align: center;
+    font-style: italic;
+    margin: 2px 0px 3px;
+}
+
+.button-rek {
+    background-color: #ff6633;
+    margin: 4px 4px 10px;
+    padding: 2.5px 7.5px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+a.button-rek {
+    font-size: 0.76rem;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 footer p {
@@ -175,5 +239,33 @@ footer p {
 
     img {
         max-width: 540px;
+    }
+
+    article.rek-container-1 {
+        margin-right: 7.5px;
+        margin-left: auto;
+    }
+    
+    article.rek-container-2 {
+        margin-left: 7.5px;
+        margin-right: auto;
+    }
+    
+    img.rek {
+        max-width: 240px;
+        border-radius: 1.4rem;
+    }
+
+    h3.kelas-rek {
+        font-size: 1.1rem;
+    }
+
+    .button-rek {
+        margin: 4px 4px 10px;
+        padding: 3px 9px;
+    }
+    
+    a.button-rek {
+        font-size: 0.9rem;
     }
 }
